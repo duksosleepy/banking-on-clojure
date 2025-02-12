@@ -1,14 +1,11 @@
 # Manual Setup
 1. Install [Lein](https://leiningen.org/#install), [Java](https://adoptium.net/), [Clojure](https://github.com/casselc/clj-msi) and [Calva](https://calva.io/) if using VSCODE/IUM
 
-2. Install/Upgrade package
+## Usage
 
 ```bash
 lein run
 ```
-
-## Usage
-
 
 ## License
 
