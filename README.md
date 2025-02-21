@@ -13,14 +13,14 @@
 ```
 [main] INFO org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 21.0.6+7-LTS
 [main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4d746bab{/,null,AVAILABLE}
-[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@57d9b274{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:5000}
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@57d9b274{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8080}
 [main] INFO org.eclipse.jetty.server.Server - Started Server@5cc447cd{STARTING}[11.0.20,sto=0] @19484ms
-server running in port 5000
+server running in port 8080
 ```
 
 ## Confirm server is running
 
-`curl http://127.0.0.1:5000/`
+`curl http://127.0.0.1:8080/`
 
 ## License
 
