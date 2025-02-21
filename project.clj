@@ -8,9 +8,9 @@
                  [ring/ring-core "1.13.0"]
                  [io.pedestal/pedestal.service "0.7.2"]
                  [io.pedestal/pedestal.jetty "0.7.2"]
-                 [org.eclipse.jetty/jetty-server "12.0.16"]
                  ;; routing:
-                 [metosin/reitit "0.7.2"]
+                 [metosin/reitit "0.8.0-alpha1"]
+                 [metosin/reitit-pedestal "0.8.0-alpha1"]
                  ;; logging
                  [org.slf4j/slf4j-simple "2.0.16"]
                  ;; for the database:
