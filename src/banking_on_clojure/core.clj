@@ -2,6 +2,7 @@
 (ns banking-on-clojure.core
   (:gen-class)
   (:require [io.pedestal.http :as server]
+            [io.pedestal.interceptors.helpers :as helpers]
             [reitit.pedestal :as pedestal]
             [reitit.http :as http]
             [reitit.ring :as ring]
@@ -34,7 +35,7 @@
     [["/" {:name :home :get (fn [_] {:status 200
                                      :body "Hello world"})}]
      ["/api"
-      {:interceptors [(interceptor 1)]}
+      {:name :api :interceptors [(interceptor 1)]}
       ["/api/ping" ::ping]
       ["/api/orders/:id" ::order]
       ["/number"
@@ -44,7 +45,7 @@
                          {:status 200
                           :body (select-keys req [:number])})}}]]
      ["/swagger.json"
-      {:get {:no-doc true
+      {:name :swagger :get {:no-doc true
              :swagger {:info {:title "my-api"
                               :description "with pedestal & reitit-http"}}
              :handler (swagger/create-swagger-handler)}}]
@@ -116,3 +117,21 @@
 
 (defn -main [& _args]
   (start))
+
+
+(defn stop
+  "Gracefully shutdown the server, waiting 100ms.  Log the time of shutdown"
+  []
+  (when-not (nil? @http-state)
+    (@http-state :timeout 100)
+    (reset! http-state nil)
+    (println (str (java.util.Date.)
+                  " INFO: Application server shutting down..."))))
+
+
+(defn restart
+  "Convenience function to stop and start the application server"
+
+  [http-port]
+  (stop)
+  (start http-port))

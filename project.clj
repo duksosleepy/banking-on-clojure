@@ -8,6 +8,8 @@
                  [ring/ring-core "1.13.0"]
                  [io.pedestal/pedestal.service "0.7.2"]
                  [io.pedestal/pedestal.jetty "0.7.2"]
+                 ;;JWT
+                 [com.nimbusds/nimbus-jose-jwt "5.4"]
                  ;; routing:
                  [metosin/reitit "0.8.0-alpha1"]
                  [metosin/reitit-pedestal "0.8.0-alpha1"]
@@ -19,4 +21,5 @@
                  [environ/environ "1.2.0"]]
   :min-lein-version "2.11.0"
   :main banking-on-clojure.core
-  :repl-options {:init-ns banking-on-clojure.core})
+  :repl-options {:init-ns banking-on-clojure.core}
+  :plugins [[:lein-cloverage "1.2.4"]])
