@@ -1,0 +1,196 @@
+2025-03-03 12:13:05 [main] DEBUG o.e.jetty.http.PreEncodedHttpField - HttpField encoders loaded: [org.eclipse.jetty.http2.hpack.HpackFieldPreEncoder@6edbf6ed, org.eclipse.jetty.http.Http1FieldPreEncoder@498c3adc]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - QueuedThreadPool[qtp265066522]@fcc981a{STOPPED,8<=0<=50,i=0,r=-1,t=-18728458ms,q=0}[NO_TRY] added {org.eclipse.jetty.util.thread.ThreadPoolBudget@59f7c169,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@275c02dd{STOPPED}[11.0.20,sto=0] added {QueuedThreadPool[qtp265066522]@fcc981a{STOPPED,8<=0<=50,i=0,r=-1,t=-18728460ms,q=0}[NO_TRY],AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@275c02dd{STOPPED}[11.0.20,sto=0] added {AttributeContainerMap@43ca23a8{size=0},AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@3e7d4c04[HTTP/1.1] added {HttpConfiguration@5358e41e{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@7ff4677f]},POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - HTTP2CServerConnectionFactory@65a61862[h2c] added {HTTP2SessionContainer@7385c2f0[size=0],POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - HTTP2CServerConnectionFactory@65a61862[h2c] added {HttpConfiguration@5358e41e{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@7ff4677f]},POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{null, ()}{0.0.0.0:0} added {QueuedThreadPool[qtp265066522]@fcc981a{STOPPED,8<=0<=50,i=0,r=-1,t=-18728494ms,q=0}[NO_TRY],AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{null, ()}{0.0.0.0:0} added {ScheduledExecutorScheduler@70a1e4f7{STOPPED},AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@275c02dd{STOPPED}[11.0.20,sto=0] added {LogarithmicArrayByteBufferPool@396e50c0{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=4096},POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{null, ()}{0.0.0.0:0} added {LogarithmicArrayByteBufferPool@396e50c0{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=4096},UNMANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{null, ()}{0.0.0.0:0} added {org.eclipse.jetty.io.LogarithmicArrayByteBufferPool$LogarithmicRetainablePool@5b5752a{min=0,max=65536,buckets=17,heap=0/-1,direct=0/-1},POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{null, ()}{0.0.0.0:0} added {org.eclipse.jetty.server.AbstractConnector$1@732e21c9,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{null, (http/1.1)}{0.0.0.0:0} added {HttpConnectionFactory@3e7d4c04[HTTP/1.1],AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.server.AbstractConnector - ServerConnector@608e7e46{HTTP/1.1, (http/1.1)}{0.0.0.0:0} added HttpConnectionFactory@3e7d4c04[HTTP/1.1]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added {HTTP2CServerConnectionFactory@65a61862[h2c],AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.server.AbstractConnector - ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added HTTP2CServerConnectionFactory@65a61862[h2c]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0} added {SelectorManager@ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:0},MANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@275c02dd{STOPPED}[11.0.20,sto=0] added {o.e.j.s.ServletContextHandler@5a5b2829{/,null,STOPPED},MANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - o.e.j.s.ServletContextHandler@5a5b2829{/,null,STOPPED} added {ServletHandler@1e22c706{STOPPED},MANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServletHandler@1e22c706{STOPPED} added {io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServletHandler@1e22c706{STOPPED} added {[/*]=>io.pedestal.http.servlet.FnServlet-410e2efc,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@275c02dd{STOPPED}[11.0.20,sto=0] added {ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000},AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING Server@275c02dd{STOPPED}[11.0.20,sto=0]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@275c02dd{STARTING}[11.0.20,sto=0] added {ErrorHandler@29ff3af{STOPPED},AUTO}
+2025-03-03 12:13:12 [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 21.0.6+7-LTS
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.server.AbstractConnector - Could not configure SO_REUSEPORT to false on sun.nio.ch.ServerSocketChannelImpl[unbound]
+java.lang.UnsupportedOperationException: 'SO_REUSEPORT' not supported
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.setOption(ServerSocketChannelImpl.java:219)
+	at org.eclipse.jetty.server.ServerConnector.setSocketOption(ServerConnector.java:355)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:336)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:402)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:398)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at io.pedestal.http.jetty$_start.invokeStatic(jetty.clj:200)
+	at io.pedestal.http.jetty$_start.invoke(jetty.clj:196)
+	at io.pedestal.http.jetty$server$fn__16148.invoke(jetty.clj:226)
+	at io.pedestal.http$start.invokeStatic(http.clj:471)
+	at io.pedestal.http$start.invoke(http.clj:462)
+	at banking_on_clojure.core$start$fn__25199.invoke(core.clj:114)
+	at clojure.lang.Atom.swap(Atom.java:37)
+	at clojure.core$swap_BANG_.invokeStatic(core.clj:2369)
+	at clojure.core$swap_BANG_.invoke(core.clj:2362)
+	at banking_on_clojure.core$start.invokeStatic(core.clj:96)
+	at banking_on_clojure.core$start.doInvoke(core.clj:94)
+	at clojure.lang.RestFn.invoke(RestFn.java:397)
+	at banking_on_clojure.core$_main.invokeStatic(core.clj:118)
+	at banking_on_clojure.core$_main.doInvoke(core.clj:117)
+	at clojure.lang.RestFn.invoke(RestFn.java:397)
+	at clojure.lang.Var.invoke(Var.java:380)
+	at user$eval140.invokeStatic(form-init2577932435752060771.clj:1)
+	at user$eval140.invoke(form-init2577932435752060771.clj:1)
+	at clojure.lang.Compiler.eval(Compiler.java:7194)
+	at clojure.lang.Compiler.eval(Compiler.java:7184)
+	at clojure.lang.Compiler.load(Compiler.java:7653)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7591)
+	at clojure.main$load_script.invokeStatic(main.clj:475)
+	at clojure.main$init_opt.invokeStatic(main.clj:477)
+	at clojure.main$init_opt.invoke(main.clj:477)
+	at clojure.main$initialize.invokeStatic(main.clj:508)
+	at clojure.main$null_opt.invokeStatic(main.clj:542)
+	at clojure.main$null_opt.invoke(main.clj:539)
+	at clojure.main$main.invokeStatic(main.clj:664)
+	at clojure.main$main.doInvoke(main.clj:616)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.lang.Var.applyTo(Var.java:705)
+	at clojure.main.main(main.java:40)
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000} added {sun.nio.ch.ServerSocketChannelImpl[/127.0.0.1:5000],POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting Server@275c02dd{STARTING}[11.0.20,sto=0]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING QueuedThreadPool[qtp265066522]@fcc981a{STOPPED,8<=0<=50,i=0,r=-1,t=-18728595ms,q=0}[NO_TRY]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.t.ReservedThreadExecutor - ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - QueuedThreadPool[qtp265066522]@fcc981a{STARTING,8<=0<=50,i=0,r=-1,t=-18728600ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}] added {ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0},AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @34966ms ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @34980ms QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59999ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AttributeContainerMap@43ca23a8{size=0}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @34981ms AttributeContainerMap@43ca23a8{size=0}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING o.e.j.s.ServletContextHandler@5a5b2829{/,null,STOPPED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.util.DecoratedObjectFactory - Adding Decorator: org.eclipse.jetty.util.DeprecationWarning@711cf3c
+2025-03-03 12:13:12 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler@5a5b2829{/,null,STARTING}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ServletHandler@1e22c706{STOPPED}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/*[EMBEDDED:null] mapped to servlet=io.pedestal.http.servlet.FnServlet-410e2efc[EMBEDDED:null]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/*] (group: PREFIX_GLOB, prefix: "", suffix: "null")
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457a78e{/*},resource=MappedServlet4ce82818{/*->io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={} pathFilters=[] servletFilterMap={} servletPathMap=PathMappings[size=1] servletNameMap={io.pedestal.http.servlet.FnServlet-410e2efc=MappedServlet4147625b{null->io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - Adding Default404Servlet to ServletHandler@1e22c706{STARTING}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServletHandler@1e22c706{STARTING} added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED},AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServletHandler@1e22c706{STARTING} added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/*[EMBEDDED:null] mapped to servlet=io.pedestal.http.servlet.FnServlet-410e2efc[EMBEDDED:null]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/*] (group: PREFIX_GLOB, prefix: "", suffix: "null")
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457a78e{/*},resource=MappedServlet71769652{/*->io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3[EMBEDDED:null]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet5fa9d195{/->org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={} pathFilters=[] servletFilterMap={} servletPathMap=PathMappings[size=2] servletNameMap={org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3=MappedServlet4e20cce8{null->org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, io.pedestal.http.servlet.FnServlet-410e2efc=MappedServlet40df07fc{null->io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/*[EMBEDDED:null] mapped to servlet=io.pedestal.http.servlet.FnServlet-410e2efc[EMBEDDED:null]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.http.pathmap.ServletPathSpec - Creating ServletPathSpec[/*] (group: PREFIX_GLOB, prefix: "", suffix: "null")
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457a78e{/*},resource=MappedServlet5decdb3{/*->io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=1]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - Path=/[EMBEDDED:null] mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3[EMBEDDED:null]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.http.pathmap.PathMappings - Added MappedResource[pathSpec=ServletPathSpec@9457dcb7{/},resource=MappedServlet146a81e4{/->org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}] to PathMappings[size=2]
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={} pathFilters=[] servletFilterMap={} servletPathMap=PathMappings[size=2] servletNameMap={org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3=MappedServlet4e20cce8{null->org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}, io.pedestal.http.servlet.FnServlet-410e2efc=MappedServlet40df07fc{null->io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}}}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting ServletHandler@1e22c706{STARTING}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35035ms ServletHandler@1e22c706{STARTED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35048ms io.pedestal.http.servlet.FnServlet-410e2efc==io.pedestal.http.servlet.FnServlet@4785c03d{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+2025-03-03 12:13:12 [main] DEBUG o.e.jetty.servlet.ServletHolder - Servlet.init null for io.pedestal.http.servlet.FnServlet-410e2efc
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STOPPED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35051ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-7fae2be3==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet@6d729a65{jsp=null,order=-1,inst=false,async=true,src=EMBEDDED:null,STARTED}
+2025-03-03 12:13:12 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5a5b2829{/,null,AVAILABLE}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35052ms o.e.j.s.ServletContextHandler@5a5b2829{/,null,AVAILABLE}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ErrorHandler@29ff3af{STOPPED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting ErrorHandler@29ff3af{STARTING}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35056ms ErrorHandler@29ff3af{STARTED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ScheduledExecutorScheduler@70a1e4f7{STOPPED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35062ms ScheduledExecutorScheduler@70a1e4f7{STARTED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HttpConnectionFactory@3e7d4c04[HTTP/1.1]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35063ms HttpConnectionFactory@3e7d4c04[HTTP/1.1]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING HTTP2CServerConnectionFactory@65a61862[h2c]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35063ms HTTP2CServerConnectionFactory@65a61862[h2c]
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING SelectorManager@ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59908ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7679059+07:00 added {SelectorProducer@612ced4e,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59905ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7699097+07:00 added {QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59905ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}],UNMANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59903ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7719017+07:00 created
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@1af064a4{STOPPED} id=0 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59903ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7728869+07:00,MANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000} added {ManagedSelector@1af064a4{STOPPED} id=0 keys=-1 selected=-1 updates=0,AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59903ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7729844+07:00 added {SelectorProducer@17e04cc5,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7729844+07:00 added {QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}],UNMANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7729844+07:00 created
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@112085ea{STOPPED} id=1 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7739831+07:00,MANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000} added {ManagedSelector@112085ea{STOPPED} id=1 keys=-1 selected=-1 updates=0,AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59902ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7739831+07:00 added {SelectorProducer@74899df1,POJO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59901ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7739831+07:00 added {QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59901ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}],UNMANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59901ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7739831+07:00 created
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@619a61c1{STOPPED} id=2 keys=-1 selected=-1 updates=0 added {AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59901ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7749802+07:00,MANAGED}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000} added {ManagedSelector@619a61c1{STOPPED} id=2 keys=-1 selected=-1 updates=0,AUTO}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@1af064a4{STOPPED} id=0 keys=-1 selected=-1 updates=0
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59900ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7749802+07:00
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35079ms AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=8,r=-1,t=59900ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.7749802+07:00
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@1ac9a733/SelectorProducer@612ced4e/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=7,r=-1,t=59845ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.8308346+07:00 tryProduce false
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 0
+2025-03-03 12:13:12 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@44851ef1 on ManagedSelector@1af064a4{STARTING} id=0 keys=0 selected=0 updates=0
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+2025-03-03 12:13:12 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Wakeup on submit ManagedSelector@1af064a4{STARTING} id=0 keys=0 selected=0 updates=1
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@20311d84 waiting with 0 keys
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@20311d84 woken with none selected
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@20311d84 woken up from select, 0/0/0 selected
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@20311d84 processing 0 keys, 1 updates
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@44851ef1
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35136ms ManagedSelector@1af064a4{STARTED} id=0 keys=0 selected=0 updates=0
+2025-03-03 12:13:12 [qtp265066522-33] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@20311d84 waiting with 0 keys
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@112085ea{STOPPED} id=1 keys=-1 selected=-1 updates=0
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=7,r=-1,t=59843ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.8328375+07:00
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35137ms AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=7,r=-1,t=59843ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.8329563+07:00
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@40c78bd1/SelectorProducer@17e04cc5/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=6,r=-1,t=59840ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.8359553+07:00 tryProduce false
+2025-03-03 12:13:12 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@347c2a1a on ManagedSelector@112085ea{STARTING} id=1 keys=0 selected=0 updates=0
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 0
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 1
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - wakeup on updates SelectorProducer@17e04cc5
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@54f96489 waiting with 0 keys
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@54f96489 woken with none selected
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@54f96489 woken up from select, 0/0/0 selected
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@54f96489 processing 0 keys, 1 updates
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@347c2a1a
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+2025-03-03 12:13:12 [qtp265066522-34] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@54f96489 waiting with 0 keys
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35142ms ManagedSelector@112085ea{STARTED} id=1 keys=0 selected=0 updates=0
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING ManagedSelector@619a61c1{STOPPED} id=2 keys=-1 selected=-1 updates=0
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTING AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=6,r=-1,t=59837ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.8384892+07:00
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35144ms AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=6,r=-1,t=59836ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.8394909+07:00
+2025-03-03 12:13:12 [main] DEBUG o.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@205f33f3 on ManagedSelector@619a61c1{STARTING} id=2 keys=0 selected=0 updates=0
+2025-03-03 12:13:12 [qtp265066522-35] DEBUG o.e.j.u.t.s.AdaptiveExecutionStrategy - AdaptiveExecutionStrategy@86c162e/SelectorProducer@74899df1/IDLE/p=false/QueuedThreadPool[qtp265066522]@fcc981a{STARTED,8<=8<=50,i=5,r=-1,t=59832ms,q=0}[ReservedThreadExecutor@16cd8dbd{reserved=0/5,pending=0}][pc=0,pic=0,pec=0,epc=0]@2025-03-03T12:13:12.843509+07:00 tryProduce false
+2025-03-03 12:13:12 [qtp265066522-35] DEBUG o.eclipse.jetty.io.ManagedSelector - updateable 1
+2025-03-03 12:13:12 [qtp265066522-35] DEBUG o.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@205f33f3
+2025-03-03 12:13:12 [qtp265066522-35] DEBUG o.eclipse.jetty.io.ManagedSelector - updates 0
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35149ms ManagedSelector@619a61c1{STARTED} id=2 keys=0 selected=0 updates=0
+2025-03-03 12:13:12 [qtp265066522-35] DEBUG o.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WEPollSelectorImpl@364d316a waiting with 0 keys
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35149ms SelectorManager@ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000} added {acceptor-0@7d4353f8,POJO}
+2025-03-03 12:13:12 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000}
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35151ms ServerConnector@608e7e46{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:5000}
+2025-03-03 12:13:12 [main] INFO  org.eclipse.jetty.server.Server - Started Server@275c02dd{STARTING}[11.0.20,sto=0] @35152ms
+2025-03-03 12:13:12 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @35153ms Server@275c02dd{STARTED}[11.0.20,sto=0]

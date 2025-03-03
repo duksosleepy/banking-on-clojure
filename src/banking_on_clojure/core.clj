@@ -2,7 +2,6 @@
 (ns banking-on-clojure.core
   (:gen-class)
   (:require [io.pedestal.http :as server]
-            [io.pedestal.interceptors.helpers :as helpers]
             [reitit.pedestal :as pedestal]
             [reitit.http :as http]
             [reitit.ring :as ring]
@@ -98,7 +97,7 @@
                       ;; if there is something running, stop it
                       (let [port (Integer. (or (env :port) 5000))]
                       (some-> st server/stop)
-                      (-> {::server/host   "0.0.0.0"
+                      (-> {::server/host   "127.0.0.1"
                            ::server/port   port
                            ::server/join?  false
                            ::server/type   :jetty
@@ -113,7 +112,7 @@
                           (server/dev-interceptors)
                           (server/create-server)
                           (server/start))
-                      (println "Server running in port" port)))))
+                      (println (str (java.util.Date.) " INFO: Starting server on port: " port))))))
 
 (defn -main [& _args]
   (start))
